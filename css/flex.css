@@ -1,0 +1,44 @@
+.contentCon {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.formCont {
+	display: flex;
+	flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 470px;
+    /* flex-shrink: 4; */
+    flex-grow: 1;
+    /* padding: 0px; */
+    /* margin: 0px; */
+}
+#googleMap {
+    flex-basis: 300px;
+    margin: 10px 0 0 0;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+.faq .ff {
+    /*background: #dad9df;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+	/*display: flex;*/
+}
+.foooter {
+	margin: 0px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

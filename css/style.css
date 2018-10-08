@@ -1,0 +1,158 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  width: 100%;
+  height: 100%;
+  /* position: fixed; */
+  /* bottom: 0; */
+  /* left: 0; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: auto;
+  flex-direction: column;
+}
+
+.contentCon {
+  width: 100%;
+  margin: 20px 0 0 0;
+}
+.contentCon h1 {
+  font-size: 30px;
+  color: blue;
+}
+.contentCon .contactText {
+  color: #a5a5a5;
+  text-transform: uppercase;
+  font-family: Ubuntu;
+  font-weight: 800;
+  font-size: 17px;
+}
+.contentCon .exGoogle {
+  background: yellow;
+}
+.contentCon form {
+  font-family: Ubuntu;
+}
+.contentCon form .userInfo input[type=text], .contentCon form .userInfo select, .contentCon form .userInfo textarea {
+  width: 45%;
+}
+.contentCon form input::-webkit-input-placeholder {
+  color: #9a9c9f;
+}
+.contentCon form input::-webkit-input-placeholder {
+  color: #9a9c9f;
+}
+.contentCon form input[type=text], .contentCon form select, .contentCon form textarea {
+  height: 35px;
+  margin: 10px 5px 0 0;
+  padding: 0px 0px 0px 10px;
+  color: #4c4c4c;
+  outline: none;
+  width: 95.3%;
+  font-family: Arial;
+  text-align: left;
+}
+.contentCon form textarea {
+  width: 95.8%;
+  resize: none;
+  color: #4c4c4c;
+  padding: 5px 0 0px 10px;
+  height: 200px;
+}
+.contentCon form textarea::placeholder {
+  color: #9a9c9f;
+}
+.contentCon form button {
+  margin: 50px 0 40px 0;
+  background-color: #1abc9c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  width: 40%;
+}
+.contentCon form button:hover {
+  background-color: #1c947c;
+}
+
+.faq {
+  background: #f7f7f7;
+  width: 85%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.faq .ff {
+  width: 210px;
+  height: 200px;
+  padding: 0px;
+  margin: 0px;
+}
+.faq .ff p {
+  padding: 12px 0 0 0;
+  margin: 0px;
+  font-family: "Ubuntu", sans-serif;
+}
+.faq .questionTitle {
+  color: #4c4c4c;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.faq .questionGreen {
+  color: #1abc9c;
+}
+
+.textElse {
+  color: #4c4c4c;
+  font-size: 45px;
+  font-family: Ubuntu;
+  padding: 0;
+  margin: 0;
+}
+.textElse span {
+  color: #1abc9c;
+}
+
+.userInfo {
+  width: 100%;
+}
+
+.foooter {
+  background: #1abc9c;
+  font-family: Ubuntu;
+  width: 100%;
+}
+.foooter .textFooter {
+  margin: 0 0px 0px 40px;
+  color: #f7f7f7;
+}
+.foooter .try {
+  font-family: Ubuntu;
+  font-size: 36px;
+  font-weight: 400;
+  padding: 30px 0 0px 0;
+  margin: 0 0 0 0;
+}
+.foooter .try span {
+  font-weight: 800;
+}
+.foooter .try2 {
+  font-family: Ubuntu;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0px 0 30px 0;
+  margin: 0 0 0 0;
+}
+
+/*# sourceMappingURL=style.css.map */
